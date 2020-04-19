@@ -1,0 +1,50 @@
+client:
+  company:
+    name: Aperture Laboratories
+    address:
+      country: United States
+      state: Ohio
+      city: Cleveland
+      postal_code: "39439"
+      street: Hub Pkwy
+      house_number: "7599"
+    tax_number: M0010393920GH
+    vat_number: LU83723849
+    bank:
+      name: Gotham City Bank
+      bic: BARCGB22958
+      iban: SE35 5000 0000 0549 1000 0003
+      swift: XUGJGB98TOK
+  tax_number: H19373403048TZ
+  vat_number: PL982384853
+  max_payment_delay: 30d
+
+self:
+  company:
+    name: Aperture Laboratories
+    address:
+      country: United States
+      state: Ohio
+      city: Cleveland
+      postal_code: "39439"
+      street: Hub Pkwy
+      house_number: "7599"
+    tax_number: M0010393920GH
+    vat_number: LU83723849
+    bank:
+      name: Gotham City Bank
+      bic: BARCGB22958
+      iban: SE35 5000 0000 0549 1000 0003
+      swift: XUGJGB98TOK
+  service:
+    name: Research and Development
+    currency: €
+    per_hour: 80
+    billing: monthly
+
+work_hours_source:
+  toggl:
+    api_key: 8392d0ssd8ds7-ds87sd6ds8-ds7ds6a8d7s
+    workspace_id: "49204"
+
+template_path: templates/aperture

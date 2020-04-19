@@ -13,3 +13,19 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# My own configuration
+config/config.yaml
+
+# My own templates
+templates/fineko*
+templates/containous*
+
+# Test assets
+test_assets/
+
+# Generated Outputs
+output/
+
+# IDEA
+.idea
