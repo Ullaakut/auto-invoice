@@ -1,8 +1,8 @@
 package invoice
 
 import (
-	"io/ioutil"
 	"fmt"
+	"io/ioutil"
 
 	"github.com/Ullaakut/auto-invoice/pkg/workhours"
 	"gopkg.in/yaml.v2"
@@ -20,8 +20,6 @@ type Config struct {
 
 type Client struct {
 	Company         Company `yaml:"company"`
-	TaxNumber       string  `yaml:"tax_number"`
-	VATNumber       string  `yaml:"vat_number"`
 	MaxPaymentDelay string  `yaml:"max_payment_delay"`
 }
 

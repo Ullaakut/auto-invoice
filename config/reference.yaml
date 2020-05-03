@@ -15,8 +15,6 @@ client:
       bic: BARCGB22958
       iban: SE35 5000 0000 0549 1000 0003
       swift: XUGJGB98TOK
-  tax_number: H19373403048TZ
-  vat_number: PL982384853
   max_payment_delay: 30d
 
 self:
